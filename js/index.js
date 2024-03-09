@@ -16,7 +16,7 @@ function fetchDataFromApi() {
         let buttonEvent = "";
         if (element[5]) {
           buttonEvent = `<div class="w-full lg:w-1/3">
-          <a href="${element[5]}" class="btn btn-info">Cliquer</a>
+          <a href="${element[5]}" target="_blank" class="btn btn-info">Cliquer</a>
         </div>`;
         }
         let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f]" >
