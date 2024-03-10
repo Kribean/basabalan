@@ -1,4 +1,5 @@
 let tableEvent = document.getElementById("idTable");
+let spinnerDiv = document.getElementById("spinner");
 function fetchDataFromApi() {
   fetch(
     "https://sheets.googleapis.com/v4/spreadsheets/1AbQp861sBhgmRLrN7EmkTvDM0WP7Ub_tJQSSTjT6q2E/values/Activite!A2:F?key=AIzaSyCiv16RAu7ZHd8gMmdjtLqbqA9NvjY1YzI"
@@ -50,4 +51,10 @@ function fetchDataFromApi() {
     });
 }
 
+const hideSpiner = () => {
+  setTimeout(() => {
+    spinnerDiv.classList.add("hidden");
+  }, 3000);
+};
+hideSpiner();
 fetchDataFromApi();
