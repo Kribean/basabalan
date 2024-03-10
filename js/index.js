@@ -51,11 +51,4 @@ function fetchDataFromApi() {
     });
 }
 
-const hideSpiner = () => {
-  setTimeout(() => {
-    spinnerDiv.remove();
-    //spinnerDiv.classList.add("hidden");
-  }, 3000);
-};
-hideSpiner();
 fetchDataFromApi();
