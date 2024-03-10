@@ -53,7 +53,8 @@ function fetchDataFromApi() {
 
 const hideSpiner = () => {
   setTimeout(() => {
-    spinnerDiv.classList.add("hidden");
+    spinnerDiv.remove();
+    //spinnerDiv.classList.add("hidden");
   }, 3000);
 };
 hideSpiner();
