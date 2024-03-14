@@ -23,7 +23,7 @@ function fetchDataFromApi() {
         </div>`;
         }
         let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f]" >
-        <div class= "w-full h-[72px]" style="background-image: url(../assets/logo/logo-horizontal-noir.png); background-repeat:50%; background-size:cover;background-position:center">
+        <div class= "w-full h-[72px]" style="background-image: url(assets/logo/logo-horizontal-noir.png); background-repeat:50%; background-size:cover;background-position:center">
         
         </div>
         <div class="flex flex-col lg:flex-row justify-between">
@@ -59,7 +59,7 @@ function fetchDataFromApi() {
               </div>`;
         }
         let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f]" >
-              <div class= "w-full h-[72px]" style="background-image: url(../assets/logo/logo-horizontal-noir.png); background-repeat:50%; background-size:cover;background-position:center">
+              <div class= "w-full h-[72px]" style="background-image: url(assets/logo/logo-horizontal-noir.png); background-repeat:50%; background-size:cover;background-position:center">
               
               </div>
               <div class="flex flex-col lg:flex-row justify-between">
