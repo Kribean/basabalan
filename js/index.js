@@ -19,10 +19,10 @@ function fetchDataFromApi() {
         let buttonEvent = "";
         if (element[5]) {
           buttonEvent = `<div class="w-full lg:w-1/3">
-          <a href="${element[5]}" target="_blank" class="btn btn-info">Cliquer</a>
+          <a href="${element[5]}" target="_blank" class="btn btn-info">S'inscrire</a>
         </div>`;
         }
-        let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f]" >
+        let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f] text-[#11363f] dark:bg-base-100 dark:text-[#11363f] " >
         <div class= "w-full h-[72px]" style="background-image: url(assets/logo/logo-horizontal-jaune.png); background-repeat:50%; background-size:cover;background-position:center">
         
         </div>
@@ -55,10 +55,10 @@ function fetchDataFromApi() {
         let buttonEvent = "";
         if (element[5]) {
           buttonEvent = `<div class="w-full lg:w-1/3">
-                <a href="${element[5]}" target="_blank" class="btn btn-info">Cliquer</a>
+                <a href="${element[5]}" target="_blank" class="btn btn-info">S'inscrire</a>
               </div>`;
         }
-        let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f]" >
+        let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f] dark:bg-base-100 dark:text-[#11363f]" >
               <div class= "w-full h-[72px]" style="background-image: url(assets/logo/logo-horizontal-noir.png); background-repeat:50%; background-size:cover;background-position:center">
               
               </div>
