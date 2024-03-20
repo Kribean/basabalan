@@ -23,23 +23,20 @@ function fetchDataFromApi() {
         </div>`;
         }
         let eventElement = `            <div class=" w-full h-fit bg-base-100 shadow-xl p-4 rounded-box my-[10px] text-[#11363f] text-[#11363f] dark:bg-base-100 dark:text-[#11363f] " >
-        <div class= "w-full h-[72px]" style="background-image: url(assets/logo/logo-horizontal-jaune.png); background-repeat:50%; background-size:cover;background-position:center">
-        
+        <div class= "w-full dupradi-font items-center justify-center">
+        <p class="break-words font-bold">${element[2]}</p>
         </div>
-        <div class="flex flex-col lg:flex-row justify-between">
-        <div class="w-full lg:w-1/3">
+        <div class="flex flex-col items-center justify-center">
+        <div class="w-full">
           <p class="break-words font-bold">${element[0]}</p>
         </div>
-        <div class="w-full lg:w-1/3">
+        <div class="w-full">
         <p class="break-words">${element[1]}</p>
       </div>
-        <div class="w-full lg:w-1/3">
-          <p class="break-words font-bold">${element[2]}</p>
-        </div>
-        <div class="w-full lg:w-2/3">
+        <div class="w-full">
         <p class="break-words">${element[3]}</p>
       </div>
-      <div class="w-full lg:w-1/3">
+      <div class="w-full">
       <p class="break-words font-bold">${element[4]}</p>
     </div>
     ${buttonEvent}

@@ -1,7 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@font-face {
+  font-family: "dupradi";
+  src: url("../assets/font/Drupadi-Regular.ttf");
+}
 
 .kaushan-script-regular {
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.custom-stroke {
+  -webkit-text-stroke: 1px black; /* Safari / iOS */
+  text-stroke: 1px black; /* Autres navigateurs */
+}
+
+.dupradi-font {
+  font-family: "dupradi";
 }
