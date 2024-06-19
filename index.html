@@ -617,9 +617,9 @@
       </div>
     </footer>
     <!-- Chat bot basa-->
-    <div id="container-aykin-chat" class="fixed bottom-0 flex flex-col items-end justify-end w-full p-4">
-      <div id="aykin-chat-head" class="w-full max-w-[90%] sm:max-w-md bg-neutral text-neutral-content rounded flex flex-row justify-end items-end p-4" style="display: block;"><p>powered by Aykin</p></div>
-      <div id="aykin-chat" class="w-full max-w-[90%] sm:max-w-md h-[75vh] bg-zinc-200 rounded overflow-auto flex flex-col" style="display: block;">
+    <div id="container-aykin-chat" class="fixed bottom-0 flex flex-col items-end justify-end w-full p-4 z-[99]">
+      <div id="aykin-chat-head" class="w-full max-w-[90%] sm:max-w-md bg-neutral text-neutral-content rounded-t-lg flex flex-row justify-end items-end p-4" style="display: none;"><p class="text-end">powered by <a href="https://aykin.fr/" target="_blank" rel="noopener noreferrer"  class="underline">Aykin</a></p></div>
+      <div id="aykin-chat" class="w-full max-w-[90%] sm:max-w-md h-[75vh] bg-zinc-200 rounded-b-lg overflow-auto flex flex-col" style="display: none;">
         <div class="chat chat-start p-4">
           <div class="chat-image avatar">
             <div class="w-10 rounded-full bg-slate-50">
@@ -634,7 +634,11 @@
           <button class="btn btn-neutral w-full mt-2" onclick="sendMessage()">Envoyer</button>
         </div>
       </div>
-      <div class="w-full flex flex-row justify-end p-4">
+      <div class="w-full flex flex-col gap-2 items-end justify-end p-4">
+        <button id="info-chat" onclick="handleChangeVisibility()" class="block flex flex-row justify-between items-center gap-4 w-fit p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <p class="font-bold text-neutral text-xs">Questions? Chat whith us!</p>
+          <img class="w-8" src="./images/chat-round.svg"/>
+        </button>
         <button onclick="handleChangeVisibility()" class="rounded-full bg-neutral w-12 h-12 flex flex-col justify-center items-center">
           <img class="w-8 object-cover" src="https://aykin.fr/images/logos/logo-black.svg" alt="Chat icon"/>
         </button>
