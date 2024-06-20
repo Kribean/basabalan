@@ -29,6 +29,171 @@
   />
 </head>
 <body class="flex flex-col w-full">
+        <!-- Navigation-->
+        <div class="navbar glass fixed z-50 justify-between">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-ghost btn-circle lg:hidden"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="lg:hidden menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li><a href="/">Accueil</a></li>
+                  <li><a href="/blogs/liste-articles.html">Blog</a></li>
+                  <li>
+                    <a
+                      href="https://www.google.com/maps/place/Ba+Sa+Balan/@14.6067048,-61.0662431,16z/data=!4m16!1m9!3m8!1s0x8c6aa719e28acc53:0xabd78460d4456504!2sBa+Sa+Balan!8m2!3d14.6057098!4d-61.0676435!9m1!1b1!16s%2Fg%2F11vycpw632!3m5!1s0x8c6aa719e28acc53:0xabd78460d4456504!8m2!3d14.6057098!4d-61.0676435!16s%2Fg%2F11vycpw632?entry=ttu"
+                      target="_blank"
+                      >Avis Google</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="/">
+              <img
+                src="../assets/logo/logo-blanc-horizontal.png"
+                class="absolute right-0 lg:left-0 w-[100px] mx-4"
+                alt="logo de l' entreprise de randonnée martiniquaise, ba sa balan"
+              />
+            </a>
+            <ul
+              class="hidden lg:flex flex-row mt-3 z-[1] p-2 text-white w-full gap-4 flex flex-row justify-end"
+            >
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/blogs/liste-articles.html">Blog</a></li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/Ba+Sa+Balan/@14.6067048,-61.0662431,16z/data=!4m16!1m9!3m8!1s0x8c6aa719e28acc53:0xabd78460d4456504!2sBa+Sa+Balan!8m2!3d14.6057098!4d-61.0676435!9m1!1b1!16s%2Fg%2F11vycpw632!3m5!1s0x8c6aa719e28acc53:0xabd78460d4456504!8m2!3d14.6057098!4d-61.0676435!16s%2Fg%2F11vycpw632?entry=ttu"
+                  target="_blank"
+                  class="flex flex-row justify-center items-center"
+                >
+                  Avis Google</a
+                >
+              </li>
+            </ul>
+            <!--Contact-->
+            <div class="absolute right-0 top-[80px] lg:top-[150px]">
+              <ul class="menu glass rounded-box">
+                <li>
+                  <a href="#contact" class="hidden lg:block">
+                    <svg
+                      class="h-5 w-5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
+                        stroke="#D5DBDB"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="tel:+596696509391" class="lg:hidden">
+                    <svg
+                      class="h-5 w-5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
+                        stroke="#D5DBDB"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:basa1balan@gmail.com" target="_blank">
+                    <svg
+                      class="h-5 w-5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_429_11225)">
+                        <path
+                          d="M3 5H21V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V5Z"
+                          stroke="#D5DBDB"
+                          stroke-width="2.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M3 5L12 14L21 5"
+                          stroke="#D5DBDB"
+                          stroke-width="2.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_429_11225">
+                          <rect width="24" height="24" fill="#D5DBDB" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/ba_sa_balan/?hl=fr"
+                    target="_blank"
+                  >
+                    <svg
+                      class="h-5 w-5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#D5DBDB"
+                      />
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#D5DBDB"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#D5DBDB"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--Contact-->
+          </div>
     <header class="flex flex-col items-center justify-center gap-4 bg-neutral text-center text-neutral-content px-4 lg:px-[200px] py-[20px]">
             <img
             src="../assets/logo/logo-moyen-blanc-rond.png"
@@ -71,7 +236,7 @@
 
             <article class="mb-8">
                 <h3 class="text-2xl font-semibold mb-4">Une biodiversité exceptionnelle</h3>
-                <p class="text-lg leading-relaxed">En explorant la Martinique avec Ba Sa Balan, vous aurez l'occasion d'observer une faune et une flore riche et diverse. La marche nordique permet de se déplacer silencieusement et d'approcher les espèces animales et végétales dans leur habitat naturel, rendant chaque randonnée unique et enrichissante.</p>
+                <p class="text-lg leading-relaxed">En explorant la Martinique avec Ba Sa Balan, vous aurez l'occasion d'observer une faune et une flore riche et diverse. La marche nordique permet de se déplacer, d'approcher les espèces animales et végétales dans leur habitat naturel, rendant chaque randonnée unique et enrichissante.</p>
             </article>
 
             <article>
@@ -82,7 +247,7 @@
 
         <section class="flex flex-col">
             <h2 class="text-3xl font-semibold mb-6">Rejoignez Ba Sa Balan pour une Expérience Inoubliable</h2>
-            <p class="text-lg leading-relaxed mb-4">Prêts à découvrir la Martinique autrement ? Contactez Ba Sa Balan dès aujourd'hui pour réserver votre randonnée nordique et vivre une aventure exceptionnelle au cœur de l'île. Appelez-nous au <a href="tel:+123456789" class="text-blue-500 hover:underline">[numéro de téléphone]</a> ou remplissez notre <a href="contact.html" class="text-blue-500 hover:underline">formulaire de contact</a> pour plus d'informations.</p>
+            <p class="text-lg leading-relaxed mb-4">Prêts à découvrir la Martinique autrement ? Contactez Ba Sa Balan dès aujourd'hui pour réserver votre randonnée nordique et vivre une aventure exceptionnelle au cœur de l'île. Appelez-nous au <a href="tel:+596696509391" class="text-blue-500 hover:underline">+596 696 50 93 91</a> ou envoyer nous un email à <a href="mailto:basa1balan@gmail.com" class="text-blue-500 hover:underline">basa1balan@gmail.com</a> pour plus d'informations.</p>
             <p class="text-lg leading-relaxed">Embarquez pour une expérience de marche nordique inoubliable avec Ba Sa Balan, et laissez-vous séduire par la magie de la Martinique.</p>
         </section>
     </main>
