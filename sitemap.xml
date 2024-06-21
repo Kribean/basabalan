@@ -8,18 +8,28 @@
 
 
 <url>
-  <loc>http://basabalan.com/</loc>
-  <lastmod>2024-03-26T15:22:33+00:00</lastmod>
+  <loc>https://basabalan.com/</loc>
+  <lastmod>2024-06-21T11:16:39+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://basabalan.com/excursion.html</loc>
-  <lastmod>2024-03-26T15:22:33+00:00</lastmod>
+  <loc>https://basabalan.com/excursion.html</loc>
+  <lastmod>2024-06-21T11:16:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://basabalan.com/index.html</loc>
-  <lastmod>2024-03-26T15:22:33+00:00</lastmod>
+  <loc>https://basabalan.com/blogs/liste-articles.html</loc>
+  <lastmod>2024-06-21T11:16:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://basabalan.com/index.html</loc>
+  <lastmod>2024-06-21T11:16:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://basabalan.com/blogs/tourisme-en-martinique.html</loc>
+  <lastmod>2024-06-21T11:16:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
