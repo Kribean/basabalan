@@ -44,7 +44,7 @@ const sendMessage = () => {
     botMessageDiv.innerHTML = `
       <div class="chat-image avatar">
         <div class="w-10 rounded-full bg-slate-50">
-          <img alt="Tailwind CSS chat bubble component" src="https://aykin.fr/images/logos/logo-black.svg" />
+          <img alt="Tailwind CSS chat bubble component" src="./assets/logo/logo-moyen-noir-rond.png" />
         </div>
       </div>
       <div class="chat-bubble">${data.response}</div>
@@ -59,7 +59,7 @@ const sendMessage = () => {
     errorMessageDiv.innerHTML = `
       <div class="chat-image avatar">
         <div class="w-10 rounded-full bg-slate-50">
-          <img alt="Tailwind CSS chat bubble component" src="https://aykin.fr/images/logos/logo-black.svg" />
+          <img alt="Tailwind CSS chat bubble component" src="./assets/logo/logo-moyen-noir-rond.png" />
         </div>
       </div>
       <div class="chat-bubble">Oups erreur, connectez-vous plus tard</div>
